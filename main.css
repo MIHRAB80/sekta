@@ -16,24 +16,92 @@ body {
 .Title {
     font-family: RubikGlitch-Regular;
     /* font-family: 'Roboto', sans-serif; */
-    font-size: 100px;
+    font-size: 142px;
     font-weight: normal;
-    color: blue;
+    color: brown;
+    text-shadow: 1px 1px 1px red,
+    2px 2px 1px red;
     text-align: center;
+    margin: 42px;
+    
+}
+
+.listKK  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     
 }
 
 .KK {
-    block-size: 400px;
-    margin: 50px;
-    border: 50px;
-    padding: 50px;
-    text-align: center;
-    color: white;
-}
-
-
-.listKK  {
     display: flex;
-    
+    width: 600px;
+    height: 334px;
+    margin: 42px;
+    padding: 0px;
+    text-align: center;
+    color: gray;
+    background-image: url(image/bloсk_4.png);
+    background-position: top center;
+    background-size: cover;
 }
+
+.KK:hover {
+    color: red;
+}
+
+
+
+.LList {
+    width: 300px;
+    height: 334px;
+    padding: 42px 10px 42px 42px;
+    background-position: top center;
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+.RList {
+    width: 300px;
+    height: 334px;
+    padding: 42px 42px 42px 42px;
+    background-position: top center;
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+.KKName {
+    padding: 0px 0px 20px 35px;
+    height: 40px;
+}
+
+.KKImage {
+    padding: 0px 0px 20px 35px;  
+}
+
+
+.KKCity {
+    padding: 10px 42px 10px 0px;
+}
+
+.KKLastTime {
+    padding: 10px 42px 10px 0px;
+}
+
+.KKBook {
+    padding: 10px 42px 10px 0px;
+}
+
+
+
+
+
+
+
+/* .button {
+    display: inline-block;
+    padding: 1em;
+    background-color: red;
+    text-decoration: none;
+    color: white;
+} */
